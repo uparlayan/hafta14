@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 import Todos from "./Todos";
 
-const App = () => {
+const App2 = () => {
   const [count, setCount] = useState(0);
   const [todos, setTodos] = useState(["Kursa gidilecek"]);
 
@@ -24,4 +24,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App2;
